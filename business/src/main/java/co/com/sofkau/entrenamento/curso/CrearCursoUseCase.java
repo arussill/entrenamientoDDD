@@ -7,7 +7,7 @@ import co.com.sofkau.entrenamiento.curso.Curso;
 import co.com.sofkau.entrenamiento.curso.commands.CrearCurso;
 
 public class CrearCursoUseCase extends UseCase<RequestCommand<CrearCurso>, ResponseEvents> {
-    @Override
+   @Override
     public void executeUseCase(RequestCommand<CrearCurso> crearCursoRequestCommand) {
         var command = crearCursoRequestCommand.getCommand();
 

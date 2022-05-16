@@ -9,7 +9,6 @@ public class AgregarMentoria extends Command {
     private final CursoId coursoId;
     private final Nombre nombre;
     private final Fecha fecha;
-
     public AgregarMentoria(CursoId coursoId, Nombre nombre, Fecha fecha) {
         this.coursoId = coursoId;
         this.nombre = nombre;
@@ -28,7 +27,4 @@ public class AgregarMentoria extends Command {
     public Fecha getFecha() {
         return fecha;
     }
-
-
-
 }
